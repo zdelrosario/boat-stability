@@ -6,5 +6,5 @@ Uses a simple discretization scheme to evaluate the integrals needed to perform 
 
 Two notebooks execute an exploratory model analysis (EMA) of the boat stability model:
 
-- `00-generate-data.ipynb` : Run initially to generate stability data for a sample of boat hulls.
-- `01-ema-example.ipynb` : Loads the sample generated above and carries out an EMA of the boat model.
+- [`00-generate-data.ipynb`](https://github.com/zdelrosario/boat-stability/blob/main/00-generate-data.ipynb) : Run initially to generate stability data for a sample of boat hulls.
+- [`01-ema-example.ipynb`](https://github.com/zdelrosario/boat-stability/blob/main/01-ema-example.ipynb) : Loads the sample generated above and carries out an EMA of the boat model.
