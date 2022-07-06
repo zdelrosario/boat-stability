@@ -1,6 +1,6 @@
 # boat-stability
 
-2d boat hull statical stability analysis in python
+Two-dimensional boat hull statical stability analysis in python using the [`py-grama`](https://github.com/zdelrosario/py_grama) packaage.
 
 Uses a simple discretization scheme to evaluate the integrals needed to perform a [statical stability](https://www.usna.edu/NAOE/_files/documents/Courses/EN455/AY20_Notes/EN455CourseNotesAY20_Chapter2.pdf) analysis of a boat hull cross-section.
 
