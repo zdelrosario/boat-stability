@@ -354,7 +354,7 @@ def fun_moment(X, num=50):
 
     return df_moment
 
-def fun_performance(X, num=30):
+def fun_performance(H, W, n, d, f_com, num=30):
     r"""Compute several boat design performance characteristics
 
     Args:
@@ -381,6 +381,7 @@ def fun_performance(X, num=30):
             M_min (lbf in): Minimum moment
             int_M_stable (lbf in rad): Integral of moment curve from upright to AVS
     """
+    X = [H, W, n, d, f_com]
     ## Generate boat hull given parameters
     df_hull, df_mass = make_hull(X)
 
